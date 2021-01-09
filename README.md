@@ -75,6 +75,12 @@ Google Chrome plugin for CML TVV Project
     |`{{target:crv:<target_name>}}`|Curve with name `target_name` as picture taken from the Simulation selected by user as target (There is no Loadcase target curves in current version of the CML-Bench system)|
     |`{{curves:<curve_name>}}`|All curves with name `curve_name` from selected simulations as a single picture (for comparison reasons)|
 
+## Content
+
+`./tvv-plugin/chrome/tvv-plugin/` - main plugin directory\
+`./tvv-plugin/report-templates-expamples/` - several `html` files as a report template examples\
+`./tvv-plugin/test-loadcase-data/` - data for creating test loadcase in the CML-Bench system
+
 ## Author
 
 Dmitriy Zhuravlyov
