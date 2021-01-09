@@ -1,0 +1,32 @@
+{
+    "manifest_version": 2,
+    "name": "TVV Plugin",
+    "version": "1.9.1",
+    "description": "This plugin generates reports using prepared templates and simulation results obtained from CML-Bench",
+    "icons": {
+        "16": "icons/icon-16.png",
+        "48": "icons/icon-48.png",
+        "128": "icons/icon-128.png"
+    },
+    "author": "Dmitriy Zhuravlyov",
+    "permissions": [
+	    "tabs",
+	    "activeTab",
+        "storage",
+        "*://*/*"
+    ],
+    "browser_action": {
+        "default_icon": {
+            "16": "icons/icon-16.png",
+            "48": "icons/icon-48.png",
+            "128": "icons/icon-128.png"
+        },
+        "default_title": "TVV Plugin",
+	    "default_popup": "html/popup.html"
+    },
+    "background": {
+        "page": "html/bg.html",
+        "persistent": false
+    },
+    "content_security_policy": "default-src 'self'; script-src https://www.gstatic.com/ https://polyfill.io/ https://cdn.jsdelivr.net/ 'self'; connect-src * 'self'; style-src https://www.gstatic.com/ https://polyfill.io/ https://cdn.jsdelivr.net/ 'self'; font-src https://www.gstatic.com/ https://polyfill.io/ https://cdn.jsdelivr.net/ 'self';"
+}
