@@ -1,0 +1,6 @@
+#,Type,Name,Value,Target,Condition,Dimension,Description,ISO,Comments
+1,displacement,Ux_A,20.0,,,mm,,,
+2,velocity,Vy_A,-5.0,,,mm/s,,,
+3,acceleration,Az_A,0.25,,,mm/s^2,,,
+4,NN,number_of_nodes,1000,,,,,,
+5,NE,number_of_elements,512,,,,,,

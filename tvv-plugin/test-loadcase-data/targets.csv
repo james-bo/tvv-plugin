@@ -1,0 +1,4 @@
+Name,Value,Condition,Dimension,Description
+Ux_A,20.0,<=,mm,
+Vy_A,-5.0,+/- 0.5,mm/s,
+Az_A,,from 0.2 mm/s^2 to 0.3 mm/s^2,mm/s^2,

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <head>
+        <title>Test report template</title>
+    </head>
+    <body>
+        <div id="report-background" class="report-background">
+            <h3>
+                Пример файла шаблона отчета типа "single solver"
+            </h3>
+            Тестовый Loadcase: http://192.168.125.100/#project/loadcase/57116/view?path=UAZ%2FPatriot+2016%2FValidation%2FCrash%2FFront%2FENCAP-Barrier<br>
+            &#x1F6C8; Используйте простые и понятные имена Simulation-ов<br>
+            <p>
+                Значение параметра <b>passenger_HIC_15</b> из расчета <b>UAZ_2016_ENCAP_barrier_front_541</b>:<br>
+                {{UAZ_2016_ENCAP_barrier_front_541:val:passenger_HIC_15}}
+            </p>
+            <p>
+                Значение параметра <b>passenger_HIC_15</b> из расчета <b>UAZ_2016_ENCAP_barrier_front_062</b>:<br>
+                {{UAZ_2016_ENCAP_barrier_front_062:val:passenger_HIC_15}}
+            </p>
+            <p>
+                Целевое значение параметра <b>passenger_HIC_15</b>:<br>
+                {{target:passenger_HIC_15}}
+            </p>
+            <p>
+                Значение параметра <b>driver_chest_intrusion</b> из расчета <b>UAZ_2016_ENCAP_barrier_front_541</b>:<br>
+                {{UAZ_2016_ENCAP_barrier_front_541:val:driver_chest_intrusion}}
+            </p>
+            <p>
+                Значение параметра <b>driver_chest_intrusion</b> из расчета <b>UAZ_2016_ENCAP_barrier_front_062</b>:<br>
+                {{UAZ_2016_ENCAP_barrier_front_062:val:driver_chest_intrusion}}
+            </p>
+            <p>
+                Целевое значение параметра <b>driver_chest_intrusion</b>:<br>
+                {{target:driver_chest_intrusion}}
+            </p>
+            <p>
+                Пластические деформации кузова из расчета <b>UAZ_2016_ENCAP_barrier_front_541</b>:<br>
+                {{UAZ_2016_ENCAP_barrier_front_541:pic:BIW_plastic_deformation_lower.jpg}}
+            </p>
+            <p>
+                Пластические деформации кузова из расчета <b>UAZ_2016_ENCAP_barrier_front_062</b>:<br>
+                {{UAZ_2016_ENCAP_barrier_front_062:pic:BIW_plastic_deformation_lower.jpg}}
+            </p>
+            <p>
+                Кривая <b>Dri_Chest_VC</b> из расчета <b>UAZ_2016_ENCAP_barrier_front_541</b>:<br>
+                {{UAZ_2016_ENCAP_barrier_front_541:crv:Dri_Chest_VC}}
+            </p>
+            <p>
+                Кривая <b>Dri_Chest_VC</b> из расчета <b>UAZ_2016_ENCAP_barrier_front_062</b>:<br>
+                {{UAZ_2016_ENCAP_barrier_front_062:crv:Dri_Chest_VC}}
+            </p>
+            <p>
+                Кривая <b>Pedal_Acc_X</b> из расчета <b>UAZ_2016_ENCAP_barrier_front_541</b>:<br>
+                {{UAZ_2016_ENCAP_barrier_front_541:crv:Pedal_Acc_X}}
+            </p>
+            <p>
+                Кривая <b>Pedal_Acc_X</b> из расчета <b>UAZ_2016_ENCAP_barrier_front_062</b>:<br>
+                {{UAZ_2016_ENCAP_barrier_front_062:crv:Pedal_Acc_X}}
+            </p>
+        </div>
+    </body>
+</html>
