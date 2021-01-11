@@ -83,6 +83,5 @@ Google Chrome plugin for CML TVV Project
 
 ## Author
 
-Dmitriy Zhuravlyov
-
+Dmitriy Zhuravlyov\
 zhuravlev@compmechlab.ru
